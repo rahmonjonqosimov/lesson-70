@@ -23,29 +23,29 @@ export class Navbar extends Component {
               }
             >
               <li>
-                <NavLink className={"link"} to={"/home"}>
+                <a href="#" className={"link"}>
                   Home
-                </NavLink>
+                </a>
               </li>
               <li>
-                <NavLink className={"link"} to={"/about"}>
+                <a href="#about" className={"link"}>
                   About us
-                </NavLink>
+                </a>
               </li>
               <li>
-                <NavLink className={"link"} to={"/menu"}>
+                <a href="#menu" className={"link"}>
                   Menu
-                </NavLink>
+                </a>
               </li>
               <li>
-                <NavLink className={"link"} to={"/features"}>
+                <a href="#features" className={"link"}>
                   Features
-                </NavLink>
+                </a>
               </li>
               <li>
-                <NavLink className={"link"} to={"/contact"}>
+                <a href="#contact" className={"link"}>
                   Contact us
-                </NavLink>
+                </a>
               </li>
             </ul>
           </div>

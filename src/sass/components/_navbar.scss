@@ -29,11 +29,8 @@
             text-align: left;
             color: #150c01;
             transition: 0.3s;
-            &:active {
-              transform: scale(0.95);
-            }
           }
-          a.active {
+          a:hover {
             color: #dc780b;
           }
         }
