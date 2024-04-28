@@ -1,0 +1,81 @@
+#contact {
+  padding: 115px 0;
+  background: #fbf1e7;
+  .contact {
+    text-align: center;
+    h4 {
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 18.75px;
+      letter-spacing: 0.2em;
+      text-align: center;
+      color: #dc780b;
+    }
+    h2 {
+      font-family: Philosopher;
+      font-size: 31.25px;
+      font-weight: 700;
+      line-height: 40.6px;
+      text-align: center;
+      color: #150c01;
+      margin: 15px auto 40px;
+      max-width: 700px;
+    }
+    form {
+      margin: 0 auto;
+      max-width: 750px;
+      display: flex;
+      align-items: center;
+      input {
+        width: 100%;
+        padding: 32px;
+        outline: none;
+        font-size: 14px;
+        font-family: Roboto;
+        border: none;
+        border-radius: 10px 0 0 10px;
+        ::placeholder {
+          font-family: Roboto;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 40.6px;
+          text-align: left;
+        }
+      }
+      button {
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 40.6px;
+        text-align: center;
+        color: #fff;
+        background: #dc780b;
+        padding: 20px 57px;
+        border: none;
+        border-radius: 10px;
+        margin-left: -10px;
+        cursor: pointer;
+        transition: 0.3s;
+        &:active {
+          transform: scale(0.95);
+        }
+      }
+    }
+    @media (max-width: 600px) {
+      h2 {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 28px;
+      }
+      form {
+        input {
+          padding: 20px;
+        }
+        button {
+          padding: 8px 20px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+#testimonial {
+  margin: 120px 0;
+  .testimonial__content {
+    text-align: center;
+    h4 {
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 0.2em;
+      text-align: center;
+      color: #dc780b;
+      margin: 12px 0 24px;
+    }
+    p {
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: center;
+      color: #000;
+      max-width: 750px;
+      margin: 0 auto;
+    }
+    .profil {
+      margin: 70px 0 40px;
+    }
+    .star {
+      margin: 20px 0 32px;
+    }
+    h6 {
+      font-family: Roboto;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 14.06px;
+      color: #000;
+    }
+  }
+  @media (max-width: 600px) {
+    margin: 60px 0;
+    .testimonial__content {
+      p {
+        font-size: 14px;
+      }
+      .profil {
+        margin: 10px 0;
+      }
+      .star {
+        margin: 10px 0;
+      }
+    }
+  }
+}

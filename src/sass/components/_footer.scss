@@ -1,0 +1,43 @@
+#footer {
+  padding: 120px 0;
+  background: #252525;
+  .footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    ul {
+      list-style: none;
+      h4 {
+        font-family: Philosopher;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 20.16px;
+        text-align: left;
+        color: #fff;
+        margin-bottom: 26px;
+      }
+      li {
+        margin-bottom: 20px;
+        a {
+          font-family: Roboto;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 16.41px;
+          text-align: left;
+          color: #bebebe;
+          transition: 0.3s;
+          &:hover {
+            color: #fff;
+          }
+        }
+      }
+      .icons {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+    }
+  }
+}
