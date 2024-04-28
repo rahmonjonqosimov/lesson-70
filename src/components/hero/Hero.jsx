@@ -1,7 +1,12 @@
 import React, { Component } from "react";
 import img from "../../assets/images/hero.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 export class Hero extends Component {
+  componentDidMount() {
+    Aos.init();
+  }
   render() {
     return (
       <section id="hero">
@@ -18,7 +23,7 @@ export class Hero extends Component {
               <button>Food Details</button>
             </div>
           </div>
-          <img src={img} alt="" />
+          <img data-aos="zoom-in" src={img} alt="" />
         </div>
       </section>
     );

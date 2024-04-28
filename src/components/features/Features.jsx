@@ -15,8 +15,8 @@ export class Features extends Component {
         <div className="container features__content">
           <h4>Features</h4>
           <h2>Food with a New Passion</h2>
-          <div data-aos="fade-up" className="wrapper">
-            <div className="card">
+          <div className="wrapper">
+            <div data-aos="fade-up" className="card">
               <div className="img" style={{ background: "#F4F6EB" }}>
                 <img src={img1} alt="Home" />
               </div>
@@ -26,7 +26,7 @@ export class Features extends Component {
                 very successful creative entrepreneur.
               </p>
             </div>
-            <div className="card">
+            <div data-aos="fade-up" className="card">
               <div className="img" style={{ background: "#FDF1EE" }}>
                 <img src={img2} alt="Home" />
               </div>
@@ -36,7 +36,7 @@ export class Features extends Component {
                 very successful creative entrepreneur.
               </p>
             </div>
-            <div className="card">
+            <div data-aos="fade-up" className="card">
               <div className="img" style={{ background: "#FBF1E7" }}>
                 <img src={img3} alt="Smile" />
               </div>
